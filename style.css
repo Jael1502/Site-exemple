@@ -1,0 +1,68 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.carousel,
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Superposition sombre pour lisibilité du texte */
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    z-index: 2;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.btn-custom {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.btn-custom:hover {
+    background-color: #218838;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+
+.carousel-caption .btn,
+.carousel-caption .btn-custom {
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
+.carousel-caption .btn:hover,
+.carousel-caption .btn:focus,
+.carousel-caption .btn-custom:hover,
+.carousel-caption .btn-custom:focus {
+    background-color: #52682D !important;
+    color: #ffffff !important;
+    border-color: #52682D !important;
+    text-decoration: none;
+}
