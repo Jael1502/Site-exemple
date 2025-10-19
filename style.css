@@ -2,7 +2,8 @@ html,
 body {
     height: 100%;
     margin: 0;
-    overflow: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .carousel,
@@ -65,4 +66,10 @@ body {
     color: #ffffff !important;
     border-color: #52682D !important;
     text-decoration: none;
+}
+
+.stati {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }

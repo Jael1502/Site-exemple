@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>site exemple</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <nav class="navbar fixed-top py-3 bg-white">
+        <div class="container-fluid">
+            <img src="assets/logo_meet_2020q4_color_2x_web_96dp.png" class="img-fluid" width="55rem" alt="logo">
+            <ul style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
+                <li class="pb-2" style="text-decoration: underline; font-weight: bold;">Accueil</li>
+                <li>Qui sommes nous ?</li>
+                <li>Nos investissements</li>
+                <li>News & Insights</li>
+                <li>Stratégie et impact</li>
+            </ul>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="background-color: #052F5F;">
+                    FR
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">ANG</a></li>
+                    <li><a class="dropdown-item" href="#">ESP</a></li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel" style="background-color: #E9EDDE;">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: #52682D;">Menu complémentaire
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Carrière</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Porfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Mots clés" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit"
+                            style="color: #52682D; border-color: #52682D;">Rechercher</button>
+                    </form>
+                    <div class="mt-5 d-flex" style="justify-content: center; align-items: center; margin: 0;">
+                        <img src="assets/téléchargement-removebg-preview.png" class="img-fluid px-2" width="30rem"
+                            alt="">
+                        <img src="assets/téléchargement__2_-removebg-preview.png" class="img-fluid px-2" width="30rem"
+                            alt="">
+                        <img src="assets/téléchargement__1_-removebg-preview.png" class="img-fluid px-2"
+                            width="30rem px-2" alt="">
+                        <img src="assets/téléchargement (1).png" class="img-fluid" width="30rem px-2" alt="">
+                        <img src="assets/téléchargement.jpeg" class="img-fluid" width="30rem px-2" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div id="backgroundSlider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+        <!-- Pagination -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#backgroundSlider" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#backgroundSlider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#backgroundSlider" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url('https://picsum.photos/1600/900?random=1');">
+                <div class="carousel-caption text-center">
+                    <h1>Bienvenue sur notre site</h1>
+                    <p>
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                    </p>
+                    <button class="btn border border-1 bg-white px-3 py-3 fw-bold"
+                        style="color: #52682D; border-radius: 50px;">
+                        Nos statistiques 2024
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url('https://picsum.photos/1600/900?random=2');">
+                <div class="carousel-caption text-center">
+                    <h1>Disponible pour vous</h1>
+                    <p>
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                    </p>
+                    <button class="btn border border-1 bg-white px-3 py-3 fw-bold"
+                        style="color: #52682D; border-radius: 50px;">
+                        Nouveauté pour vous
+                    </button>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url('https://picsum.photos/1600/900?random=3');">
+                <div class="carousel-caption text-center ">
+                    <h1>Des solutions sur mesure</h1>
+                    <p class="col-md-5">
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                        Ici il faut mettre du texte Ici il faut mettre du texte Ici il faut mettre du texte
+                    </p>
+                    <button class="btn border border-1 bg-white px-3 py-3 fw-bold"
+                        style="color: #52682D; border-radius: 50px;">
+                        Nos investissements
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="stat" style="background-color: #E9EDDE;">
+        <div class="stati row pt-3">
+            <div class="col">
+                <h3>Investir sûrement</h3>
+                <p>Ici on met du texte Ici on met du texte Ici on met du texte Ici on met du texte Ici on met du texte
+                    Ici on met du texte
+                    Ici on met du texte Ici on met du texte Ici on met du texte Ici on met du texte Ici on met du texte
+                    Ici on met du texte Ici on met du texte Ici on met du texte Ici on met du texte Ici on met du texte
+                    Ici on met du texte
+                    Ici on met du texte Ici on met du texte Ici on met du texte Ici on met du texte Ici on met du texte
+                    Ici on met du texte
+                </p>
+            </div>
+            <div class="col">
+                <div class="d-flex">
+                    <div class="col-md-5">
+                        <h1>934 BN</h1>
+                        <span>Ici on met du texte Ici on met du texte Ici on met du texte
+                    </div>
+                    <div class="col-md-4">
+                        <h1>934 BN</h1>
+                        <span>Ici on met du texte Ici on met du texte Ici on met du texte
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="col-md-5">
+                        <h1>934 BN</h1>
+                        <span>Ici on met du texte Ici on met du texte Ici on met du texte
+                    </div>
+                    <div class="col-md-4">
+                        <h1>934 BN</h1>
+                        <span>Ici on met du texte Ici on met du texte Ici on met du texte
+                    </div>
+                </div><br>
+                <div class="col-md-4">
+                    <h1>934 BN</h1>
+                    <span>Ici on met du texte Ici on met du texte Ici on met du texte
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="row">
+
+
+            <div class="col">
+                <h1>News & Insights</h1>
+                <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/bulding1.jpeg" width="auto" height="auto" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/bulding2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/bulding3.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/bulding4.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <button class="btn border border-1" style="border-radius: 30px;">
+                    En savoir plus
+                </button>
+                <div class="mt-4 d-flex">
+                    <img src="assets/bulding2.jpeg" alt="..." class="rounded-circle object-fit-cover"
+                        style="width: 100px; height: 100px;">
+                    <p class="mt-3 ms-3">
+                        Ici il faut mettre du texte ici il faut mettre du texte ici il faut mettre du texte
+                        Ici il faut mettre du texte ici il faut mettre du texte ici il faut mettre du texte
+                    </p>
+                </div>
+                <div class="mt-4 d-flex">
+                    <img src="assets/bulding4.jpeg" alt="..." class="rounded-circle object-fit-cover"
+                        style="width: 100px; height: 100px;">
+                    <p class="mt-3 ms-3">
+                        Ici il faut mettre du texte ici il faut mettre du texte ici il faut mettre du texte
+                        Ici il faut mettre du texte ici il faut mettre du texte ici il faut mettre du texte
+                    </p>
+                </div>
+                <div class="mt-4 d-flex">
+                    <img src="assets/bulding1.jpeg" alt="..." class="rounded-circle object-fit-cover"
+                        style="width: 100px; height: 100px;">
+                    <p class="mt-3 ms-3">
+                        Ici il faut mettre du texte ici il faut mettre du texte ici il faut mettre du texte
+                        Ici il faut mettre du texte ici il faut mettre du texte ici il faut mettre du texte
+                    </p>
+                </div>
+                <div class="mt-4 d-flex">
+                    <img src="assets/bulding2.jpeg" alt="..." class="rounded-circle object-fit-cover"
+                        style="width: 100px; height: 100px;">
+                    <p class="mt-3 ms-3">
+                        Ici il faut mettre du texte ici il faut mettre du texte ici il faut mettre du texte
+                        Ici il faut mettre du texte ici il faut mettre du texte ici il faut mettre du texte
+                    </p>
+                </div>
+                <div class="mt-4 d-flex">
+                    <img src="assets/bulding4.jpeg" alt="..." class="rounded-circle object-fit-cover"
+                        style="width: 100px; height: 100px;">
+                    <p class="mt-3 ms-3">
+                        Ici il faut mettre du texte ici il faut mettre du texte ici il faut mettre du texte
+                        Ici il faut mettre du texte ici il faut mettre du texte ici il faut mettre du texte
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="mt-5 pb-5" style="background-color: #E9EDDE;">
+        <div class="row mt-5">
+            <div class="col mt-5">
+                <h1>Nos différents projets</h1>
+                <p>
+                    ici on met du texte ici on met du texte ici on met du texte ici on met du texte ici on met du texte
+                    ici on met du texte ici on met du texte ici on met du texte ici on met du texte ici on met du texte
+                    ici on met du texte ici on met du texte ici on met du texte ici on met du texte ici on met du texte
+                    ici on met du texte ici on met du texte ici on met du texte ici on met du texte ici on met du texte
+                    ici on met du texte ici on met du texte ici on met du texte ici on met du texte ici on met du texte
+                    ici on met du texte ici on met du texte ici on met du texte ici on met du texte ici on met du texte
+                </p>
+            </div>
+            <div class="col mt-5">
+                <button class="btn border border-1" style="border-radius: 30px;">
+                    En savoir plus
+                </button>
+            </div>
+        </div>
+
+        <div class="d-flex" style="justify-content: center; align-items: center;">
+            <img src="assets/bulding2.jpeg" width="500" height="auto" alt="image_bulding">
+        </div>
+
+    </section>
+
+    <section class="mt-5">
+        <h1>Quelques images de nos projets</h1>
+        <div class="card-group mt-3">
+            <div class="card">
+                <img src="assets/bulding1.jpeg" width="150" height="150" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/bulding2.jpeg" width="150" height="150" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/bulding3.jpeg" width="150" height="150" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
